@@ -1,0 +1,9 @@
+.image-container{
+    /* width: 80%; */
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

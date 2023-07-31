@@ -1,0 +1,151 @@
+
+
+
+.resize .title {
+  font-size:30px;
+  font-weight: bold;
+  color: #333;
+
+}
+.caro {
+  width: 1000%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 60%; 
+  }
+  .resize img {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  max-width: 500px; 
+ }
+ .resize p {
+  font-size: 20px;
+  color: #555;
+  margin: 5px 0;
+}
+
+
+img{
+  display: flex;
+  display: grid;
+} 
+ .search-results {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  .search-result {
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+}
+.search-result img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+} 
+ .search-result h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+  .search-result p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+ /* styles for the Navbar container  */
+.Navbar {
+  background-color: black;
+  padding: 10px;
+}
+
+/* styles for the navigation bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* styles for the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: gold;
+}
+
+/* styles for the search input and button */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  background-color: gold;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 250px; 
+}
+
+button {
+  background-color: rgb(7, 8, 79);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* styles for the links */
+.links li {
+  list-style-type: none;
+  margin-right: 20px;
+  color: white;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* styles for search results */
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-result {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(9, 21, 69);
+  color: rgb(235, 226, 226);
+  text-align: center;
+}
+
+.search-result img {
+  width: 100%;
+  height: auto;
+}
+
+.search-result h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.search-result p {
+  font-size: 14px;
+}
